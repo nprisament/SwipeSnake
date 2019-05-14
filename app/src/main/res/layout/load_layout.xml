@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/loadToolbar" >
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:id="@+id/backFromLoadButton"
+        android:textColor="#BF1616"
+        android:shadowColor="#201303"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/loadToolbar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="@string/save_1"
+        android:id="@+id/button1"
+        android:layout_below="@+id/backFromLoadButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+
+        android:textSize="50sp"
+        android:textColor="#0015ff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="@string/save_2"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="50sp"
+        android:textColor="#0015ff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="@string/save_3"
+        android:id="@+id/button3"
+        android:layout_marginTop="30dp"
+        android:textSize="50sp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:textColor="#0015ff" />
+
+</RelativeLayout>
